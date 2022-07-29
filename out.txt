@@ -1,0 +1,3 @@
+./src\lib.rs
+./src\main.rs
+./target\debug\build\rustversion-561cd1afadee0982\out\version.rs
