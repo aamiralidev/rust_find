@@ -5,7 +5,7 @@ fn main() {
     // Define command-line interface
     let matches = App::new("rust_find")
         .version("0.1.0")
-        .author("Your Name <you.email@umd.edu>")
+        .author("Aamir Ali")
         .about("Find files that match a regex pattern")
         .arg(
             Arg::from("-p, --patterns=<patterns> 'List of file patterns to find'")
@@ -29,8 +29,7 @@ fn main() {
                 .takes_value(true) // argument if true or flag if false.
                 .required(false), // this is an optional argument
         )
-        // TODO: define --dirs here
-        // TODO: define --size here
+
         .get_matches();
     // .get_matches_from(vec!["rust-find", "--patterns=.*/.rs", "--output=./tests.out"]);
 
